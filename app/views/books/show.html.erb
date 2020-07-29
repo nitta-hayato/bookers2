@@ -17,7 +17,7 @@
       <td>
         <%= link_to user_path(@book.user) do %>
         <%= @book.user.name %>
-        <%= attachment_image_tag @book.user, :image, format: 'jpeg', size: "40x40", fallback: "no_image.jpg" %>
+        <%= attachment_image_tag @book.user, :profile_image, format: 'jpeg', size: "40x40", fallback: "no_image.jpg" %>
           <% end %>
         </td>
 
